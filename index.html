@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive web design</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Gourab Kumar Sahoo</h1>
+            <h3>And I'm a <span>Fullstack Developer</span></h3>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos quae dolor qui provident aliquam
+                quasi veritatis voluptates, consequuntur sint sed.</p> -->
+            <div class="social-media">
+                <a href="https://github.com/GOURABKUMARSAHOO"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/gourab_kumar_sahoo_03/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/gourab-kumar-sahoo-b703a829a/"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="Gourab_resume.pdf" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="me.jpg" alt="">
+        </div>
+    </section>
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="me.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>Fullstack Developer</h3>
+            <p> I Enthusiastic about Technology, Coding, and Innovation. I seeking Opportunities to Apply and Expand My
+                Skills.</p>
+            <a href="#" class="btn"> Read more</a>
+        </div>
+    </section>
+    <!-- services section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Web development enables global reach, cost-effective operations, and enhanced customer engagement. It
+                    offers scalability, data-driven insights, and e-commerce opportunities, making it essential for
+                    modern business success.
+                </p>
+                <a href="" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Fullstack Development</h3>
+                <p>
+                    Full-stack development involves creating both the front-end (user interface) and back-end (server,
+                    database) of web applications, requiring proficiency in multiple technologies to build complete,
+                    functional, and responsive websites or apps.</p>
+                <a href="" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>App Development</h3>
+                <p>Android app development involves creating applications for Android devices using languages like Java
+                    or Kotlin. It includes designing user interfaces, implementing functionality, and optimizing
+                    performance for diverse devices and screen sizes.</p>
+                <a href="" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="food.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>food ordering</h4>
+                    <p>A food ordering project streamlines meal selection, order placement, and payment processing,
+                        offering users convenience and restaurants efficient operations. It enhances customer experience
+                        with real-time updates and easy accessibility.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="job.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Jobportal</h4>
+                    <p>A job portal project connects job seekers with employers, featuring job listings, application
+                        tracking, and resume management. It simplifies the recruitment process, offering a user-friendly
+                        platform for career opportunities.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="e commerce.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>E Commerce</h4>
+                    <p>An e-commerce project facilitates online shopping by offering product listings, secure
+                        transactions, and order management. It enhances customer experience with easy navigation,
+                        payment options, and efficient delivery solutions.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @gourabkumarsahoo | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
